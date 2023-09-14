@@ -15,7 +15,7 @@ class Post(BaseModel):
 
 @app.get("/")
 def root():
-    return {"message": "Hello Gang"}
+    return {"message": "Hello my man"}
 
 
 @app.get("/posts")
