@@ -19,7 +19,7 @@ def root():
 
 @app.get("/posts")
 def get_posts():
-    return {"data": "This is your post"}
+    return {"data": "This is your data"}
 
 
 @app.post("/createposts")
