@@ -81,6 +81,8 @@ def update_post(id: int, post: Post):
             status_code=status.HTTP_404_NOT_FOUND, detail=f"post doesnt exists"
         )
     post_dict = post.dict()
+    print(index)
+    print(post_dict)
     print(id)
     post_dict["id"] = id
     print(post_dict)
